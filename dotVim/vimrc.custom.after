@@ -1,2 +1,17 @@
 " Overwrite this file with whatever you want. This will be executed after
 " loading any of the stock bundles/settings.
+"
+set t_Co=256
+set background=dark
+colorscheme OceanicNext
+let g:oceanic_next_terminal_italic = 1
+let g:oceanic_next_terminal_bold = 1
+let g:airline_theme='oceanicnext'
+set termguicolors
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
+set guifont=Operator\ Mono\ Book:h15
+let g:jsx_ext_required = 0
+set cursorline
+hi Constant gui=italic
